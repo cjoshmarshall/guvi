@@ -1,0 +1,93 @@
+.register {
+  display: block;
+  height: 100vh;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: auto;
+  background: radial-gradient(white 5%, gray 70%);
+}
+
+.register-container {
+  margin: auto;
+  width: 400px;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  padding: 1rem 2rem;
+  background-color: rgb(229, 231, 235);
+}
+
+.register-title {
+  font-size: xx-large;
+  padding: 1rem 0.5rem;
+}
+
+.register-innercontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+}
+
+.register-label {
+  font-size: medium;
+  padding: 0.5rem 0;
+}
+
+.register-inputcontainer {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.register-input {
+  padding: 0.5rem;
+  width: 100%;
+  font-size: medium;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.register-buttoncontainer {
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  text-align: center;
+}
+.register-button {
+  padding: 0.5rem;
+  background-color: transparent;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+.register-button:hover {
+  outline: 1px solid black;
+}
+
+.register-register-link {
+  padding: 0.5rem 0 1rem 0;
+  text-align: center;
+}
+
+.register-register-link > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.register-error {
+  color: rgb(175, 0, 0);
+  text-align: center;
+  font-style: italic;
+}
+
+.register-input-error {
+  text-align: left;
+  font-size: medium;
+}

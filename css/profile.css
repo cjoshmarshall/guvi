@@ -1,0 +1,82 @@
+.profile {
+  display: block;
+  height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: radial-gradient(white 5%, gray 70%);
+}
+
+.profile-subcontainer {
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.profile-innercontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-title {
+  padding: 1rem;
+}
+
+.profile-innermostcontainer {
+  display: flex;
+  width: 400px;
+  height: 2rem;
+  padding: 0.25rem 1rem;
+  align-content: center;
+}
+
+.profile-label {
+  display: inline-block;
+  width: 50%;
+  align-self: center;
+}
+.profile-input {
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+  outline: none;
+}
+.profile-select {
+  width: 105%;
+}
+
+.profile-output {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  width: 100%;
+}
+
+.profile-buttoncontainer {
+  margin: 2em;
+  text-align: center;
+}
+
+.profile-button {
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+  width: 75px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 100ms ease-in;
+}
+
+.profile-button:hover {
+  box-shadow: 3px 3px 10px 1px rgb(92, 92, 92);
+}
+
+.profile-button-disabled {
+  cursor: default;
+}
+.profile-button-disabled:hover {
+  box-shadow: none;
+}

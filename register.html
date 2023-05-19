@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/register.js"></script>
+  </head>
+  <body>
+    <form id="register-form" class="register-form">
+      <div class="register-container">
+        <h2 class="register-title">Register</h2>
+        <div id="register-error" class="register-error"></div>
+        <div class="register-subcontainer">
+          <div class="register-innercontainer">
+            <label class="register-label" htmlFor="email"> Email </label>
+            <div class="register-inputcontainer">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="register-input"
+              />
+            </div>
+            <span
+              id="register-email-error"
+              class="register-error register-input-error"
+            ></span>
+          </div>
+          <div class="register-innercontainer">
+            <label class="register-label" htmlFor="password"> Password </label>
+            <div class="register-inputcontainer">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="register-input register-password"
+              />
+            </div>
+            <span
+              id="register-password-error"
+              class="register-error register-input-error"
+            ></span>
+          </div>
+          <div class="register-innercontainer">
+            <label class="register-label" htmlFor="password">
+              Confirm Password
+            </label>
+            <div class="register-inputcontainer">
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                class="register-input register-password"
+              />
+            </div>
+            <span
+              id="register-cpassword-error"
+              class="register-error register-input-error"
+            ></span>
+          </div>
+        </div>
+        <div class="register-buttoncontainer">
+          <button class="register-button">CREATE ACCOUNT</button>
+        </div>
+        <p class="register-register-link">
+          <a href="./login.html">Already have an account ?</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

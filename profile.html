@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/profile.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/profile.js"></script>
+  </head>
+  <body>
+    <form class="profile-form">
+      <div class="profile-container">
+        <div class="profile-subcontainer">
+          <div class="profile-innercontainer">
+            <h2 class="profile-title">Details</h2>
+            <div class="profile-innermostcontainer">
+              <label class="profile-label" htmlFor="name"> Name : </label>
+              <input
+                placeholder="Please Enter Your Name"
+                type="text"
+                name="name"
+                id="name"
+                class="profile-input"
+              />
+            </div>
+            <!-- <div class="profile-innermostcontainer">
+              <label class="profile-label" htmlFor="email"> Email : </label>
+              <input
+                placeholder="Please Enter Your Email"
+                type="email"
+                name="email"
+                id="email"
+                class="profile-input"
+              />
+            </div> -->
+            <div class="profile-innermostcontainer">
+              <label class="profile-label" htmlFor="age"> Age : </label>
+              <input
+                placeholder="Please Enter Your Age"
+                type="number"
+                name="age"
+                id="age"
+                class="profile-input"
+                min="1"
+                max="150"
+              />
+            </div>
+            <div class="profile-innermostcontainer">
+              <label class="profile-label" htmlFor="dob"> DOB : </label>
+              <input
+                placeholder="Please Enter Your DD-MM-YY"
+                type="date"
+                name="dob"
+                id="dob"
+                class="profile-input profile-date"
+              />
+            </div>
+            <div class="profile-innermostcontainer">
+              <label class="profile-label" htmlFor="phone"> Phone : </label>
+              <input
+                placeholder="Please Enter Your Phone No."
+                type="text"
+                name="phone"
+                id="phone"
+                class="profile-input"
+              />
+            </div>
+            <div class="profile-buttoncontainer">
+              <button id="profile-update" class="profile-button">Update</button>
+              <button id="profile-logout" class="profile-button">LOGOUT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
